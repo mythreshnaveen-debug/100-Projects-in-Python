@@ -1,6 +1,5 @@
-# This is the first project I built
-# It creates a band name using your city, and the name of your pet.
-# Feel free to check it out!
+# Day 1 - Band Name Generator
+# First project I built!
 
 print("Welcome to the Band Name Generator")
 city = input("What's the name of the city you grew up in?\n")
