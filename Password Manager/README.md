@@ -58,3 +58,11 @@ All saved passwords are written to a local file called `passwords.txt`.
 3. Run the program using:
    ```bash
    python main.py
+   ```
+4. Enter: 
+   Website
+   Email/Username
+
+5. Click Generate Password.
+
+6. Click Add to save the credentials.
