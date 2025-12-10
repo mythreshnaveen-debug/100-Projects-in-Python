@@ -1,4 +1,4 @@
-# Quizzler — True/False Trivia Quiz (Tkinter)
+# Day 34 - Quizzler — True/False Trivia Quiz (Tkinter)
 
 *A simple GUI quiz app that pulls **True/False** questions from an online API and lets you answer them in a clean interface.*
 
