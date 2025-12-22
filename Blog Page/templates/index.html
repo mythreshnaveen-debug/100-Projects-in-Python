@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NewGen Blogs</title>
+</head>
+<body>
+    <h1>NewGen Blogs</h1>
+    {%for post in posts%}
+    <h2>{{post["title"]}}</h2>
+    <h3>{{post["subtitle"]}}</h3>
+    <a href="\blogs\{{post['id']}}">Go to blog</a>
+    {%endfor%}
+</body>
+</html>
