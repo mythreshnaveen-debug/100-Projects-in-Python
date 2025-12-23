@@ -54,7 +54,3 @@ This will open the page in your default browser.
 ## License & Credits
 
 This is a small demo created for learning purposes. Use and modify freely.
-
----
-
-If you'd like, I can also update `index.html` to include the proper Google Fonts link (and fix the `<image>` tag to use `<img>`), or add a small screenshot to the README — tell me which you'd prefer.
