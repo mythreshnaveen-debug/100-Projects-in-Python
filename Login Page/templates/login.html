@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Login</title>
+	</head>
+	<body>
+        <div class="container">
+		<h1>Login</h1>
+        <form method="POST" action="/login">
+            {{form.csrf_token}}
+            {{form.hidden_tag()}}
+
+            <h2>{{form.name.label}}</h2><p>{{form.name(size=20)}}</p>
+            <h2>{{form.password.label}}</h2><p>{{form.password(size=20)}}</p>
+            {{form.login}}
+            {%if errors != []:%}
+            {%for error in errors:%}
+            <p>{{error}}</p>
+            {%endfor%}
+            {%endif%}
+        </form>
+        </div>
+	</body>
+</html>
