@@ -3,7 +3,7 @@
 
 A simple Flask web application that demonstrates **form handling, validation, authentication logic, and CSRF protection** using **Flask-WTF**. Users must log in with the correct credentials to access a “top secret” page—otherwise, access is denied (with a meme).
 
-This project is primarily for **learning purposes**, not production security.
+This project is primarily for **learning purposes**, not production security. *(README Made by AI)*
 
 ---
 
