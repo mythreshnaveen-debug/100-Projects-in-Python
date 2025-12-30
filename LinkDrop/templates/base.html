@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LinkDrop</title>
+    <style>
+        body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    background: #f9fafb;
+    color: #111;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background: white;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #16a34a;
+    font-weight: 600;
+}
+
+.container {
+    max-width: 600px;
+    margin: 3rem auto;
+    padding: 0 1rem;
+}
+
+.card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+    margin-bottom: 1rem;
+}
+
+input, button {
+    width: 100%;
+    padding: 0.7rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
+button {
+    background: #16a34a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.subtitle {
+    color: #555;
+}
+
+.time {
+    font-size: 0.8rem;
+    color: #777;
+}
+
+.footer {
+    text-align: center;
+    padding: 2rem;
+    color: #777;
+}
+
+    </style>
+</head>
+<body>
+
+<nav class="nav">
+    <a href="/">LinkDrop</a>
+    <div class="nav-links">
+        <a href="/links">Links</a>
+        <a href="/about">About</a>
+    </div>
+</nav>
+
+<main class="container">
+    {% block content %}{% endblock %}
+</main>
+
+<footer class="footer">
+    <p>LinkDrop — save now, remember later.</p>
+</footer>
+
+</body>
+</html>

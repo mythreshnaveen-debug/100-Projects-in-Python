@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Saved Links</h1>
+
+{% if links %}
+    <div class="list">
+        {% for link in links %}
+        <div class="card">
+            <a href="{{ link.url }}" target="_blank">{{ link.url }}</a>
+
+            {% if link.note %}
+                <p class="note">{{ link.note }}</p>
+            {% endif %}
+
+            <p class="time">{{ link.created_at }}</p>
+            <a href="/delete/{{link.id}}"><button class="delete" style="background: #ff0000">Delete</button></a>
+        </div>
+        {% endfor %}
+    </div>
+{% else %}
+    <p class="empty">No links saved yet.</p>
+{% endif %}
+{% endblock %}

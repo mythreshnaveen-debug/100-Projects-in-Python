@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Save a Link</h1>
+<p class="subtitle">Drop a link you don’t want to forget.</p>
+
+<form method="POST" class="card">
+    <label>URL</label>
+    <input type="url" name="url" placeholder="https://example.com" required>
+
+    <label>Note (optional)</label>
+    <input type="text" name="note" placeholder="Why is this useful?">
+
+    <button type="submit">Save Link</button>
+</form>
+{% endblock %}
