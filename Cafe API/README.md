@@ -132,8 +132,3 @@ DELETE http://localhost:8000/report-closed/1?api_key=TopSecretAPIKey
 This project is for educational purposes.
 
 ---
-
-If you want, I can also **make a shorter, visually clean version suitable for GitHub** with badges, tables, and color-coded examples. It would look way more “professional” for visitors.  
-
-Do you want me to do that?
-```
