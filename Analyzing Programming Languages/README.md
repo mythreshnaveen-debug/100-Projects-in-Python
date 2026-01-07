@@ -90,12 +90,3 @@ This helps reveal long-term trends without short-term fluctuations.
 * [Pandas `rolling()` documentation](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.rolling.html)
 * [Pandas `mean()` documentation](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.core.window.rolling.Rolling.mean.html)
 * [Matplotlib `plot()` documentation](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html)
-
-```
-
----
-
-If you want, I can also **add a “Summary of Insights” section** with example findings from this data, so your README looks complete like a mini report.  
-
-Do you want me to do that?
-```
